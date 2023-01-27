@@ -34,6 +34,8 @@ body {
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
+  background-color: #E8ADAA;
+  font
 }
 img {
   display: block;
@@ -42,6 +44,7 @@ img {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
+  font-size: 14px;
   color: var(--headline-color-on-white);
 }
 h1 {
@@ -56,13 +59,10 @@ hr {
   background: var(--accent1-color);
 }
 header {
-  padding: 1em;
-  text-align: center;
-  color: var(--headline-color-on-color);
-  background-color: var(--paragraph-background-color);
+  background-color: #E8ADAA;
 }
 header > h1, header > h2 {
-  color: var(--headline-color-on-color);
+  color: black;
 }
 p {
   font-family: var(--paragraph-font);
