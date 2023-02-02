@@ -39,6 +39,7 @@ img {
   display: block;
   margin: 0 auto;
   max-width: 300px;
+  border: 4px solid steelblue;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -46,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   text-align: center;
+  margin: 50px 0;
 }
 h2 {
   text-align: center;
@@ -113,6 +115,7 @@ nav, footer {
 nav  {
   list-style-type: none;
   display: flex;
+  padding: 25px;
 }
 nav a {
   padding:1em;
@@ -188,15 +191,26 @@ p {
 }
 a {
   font-size: 1.5em;
+  color:white
+}
+a {
+  padding: 25px;
 }
 main p {
   width: 80%;
   margin: 50px auto;
   text-align: center;
 }
+
+footer {
+  background-color: steelblue;
+  color: white;
+}
+
 footer p {
   font-size: 20px;
   margin: 20px auto;
+  padding: 25px;
 }
 a:hover {
   background-color: white;
