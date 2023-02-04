@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300&family=Roboto&display=swap");
+
+:root
+{ 
+--heading-font: "Monserrat";
+--message-font: Roboto, Open Sans, sans-serif;
+}
+
 body {
     max-width: 1600px;
     margin: 0 auto;
@@ -56,11 +64,33 @@ nav a:hover {
 .join:hover {
     background-color: #396E94
 }
-
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
 .msg {
     background-color: #4f63;
+    line-height: 1.5em;
 }
 
+.msg h2 {
+    font-family:var(--message-font);
+}
+.home-tittle {
+    font-family:var(--heading-font);
+    font-size: 2em;
+}
 footer {
     background-color: #4f63
 }
@@ -68,6 +98,7 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 } 
 
 footer p {
