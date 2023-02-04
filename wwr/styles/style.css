@@ -33,6 +33,7 @@ main section {
 
 header {
     background-color:rgba(20,30,13, .7);
+    box-sizing: border-box;
 
 }
 nav a:hover {
@@ -52,7 +53,9 @@ nav a:hover {
 .icon {
     width: 80px;
 }
-
+.main_image{
+    box-sizing: border-box;
+}
 .logo {
     width: 80px;
 }
@@ -83,7 +86,6 @@ main section img {
     background-color: #4f63;
     line-height: 1.5em;
 }
-
 .msg h2 {
     font-family:var(--message-font);
 }
@@ -100,7 +102,6 @@ nav a {
     text-decoration: none;
     padding: 35px;
 } 
-
 footer p {
     font-size: 1.2em;
 }    
